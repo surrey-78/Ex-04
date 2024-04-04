@@ -1,4 +1,4 @@
-# Ex-04 SECURE HASH FUNCTION (SHA)
+## SECURE HASH FUNCTION (SHA)
 ## DATE :
 ## AIM:
 Develop a program to implement Secure Hash Algorithm (SHA-1)
