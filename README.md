@@ -92,6 +92,7 @@ return buf.toString(); }
 }
 ```
 ## OUTPUT:
+```
 C:\Program Files\Java\jdk1.6.0_20\bin>javac SHA1.java
 C:\Program Files\Java\jdk1.6.0_20\bin>java SHA1
 Message digest object info:
@@ -102,6 +103,7 @@ SHA1("") = DA39A3EE5E6B4B0D3255BFEF95601890AFD80709
 SHA1("abc") = A9993E364706816ABA3E25717850C26C9CD0D89D
 SHA1("abcdefghijklmnopqrstuvwxyz") =
 32D10C7B8CF96570CA04CE37F2A19D84240D3A89
+```
 ## RESULT:
 Thus SHA was implemented successfully.
 
