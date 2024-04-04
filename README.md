@@ -3,6 +3,7 @@
 ## AIM:
 Develop a program to implement Secure Hash Algorithm (SHA-1)
 ## SECURED HASH ALGORITHM-1 (SHA-1):
+```
 Step 1: Append Padding Bits….
 Message is “padded” with a 1 and as many 0’s as necessary to bring the
 message length to 64 bits fewer than an even multiple of 512.
@@ -49,6 +50,7 @@ C = B<<<30, B = A, A = TEMP
  End of for loop
 Output:
 H0, H1, H2, H3, H4, H5: Word buffers with final message digest
+```
 ## PROGRAM
 ```
 import java.security.*;
@@ -114,6 +116,7 @@ Thus SHA was implemented successfully.
 To write a C program to implement the signature scheme named digital
 signature standard (Euclidean Algorithm).
 ## ALGORITHM:
+```
 STEP-1: Alice and Bob are investigating a forgery case of x and y.
 STEP-2: X had document signed by him but he says he did not sign that document digitally.
 STEP-3: Alice reads the two prime numbers p and a.
@@ -122,6 +125,7 @@ STEP-5: With these values, he applies it to the elliptic curve cryptographic equ
 y
 STEP-6: Comparing this ‘y’ with actual y’s document, Alice concludes that y is a
 forgery.
+```
 ## PROGRAM: (Digital Signature Standard)
 ```
 import java.util.*;
